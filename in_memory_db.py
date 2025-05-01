@@ -36,3 +36,4 @@ class InMemoryDB:
             raise TransactionError("rollback() called without an active transaction")
         self._transaction_store = None
         self._in_transaction = False
+        

@@ -32,3 +32,4 @@ db.begin_transaction()
 db.put("B", 10)
 db.rollback()
 print(db.get("B"))  # None
+
